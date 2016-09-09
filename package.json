@@ -1,0 +1,40 @@
+{
+  "name": "passport-weixin-enterprise",
+  "version": "1.0.0",
+  "description": "weixin enterprise authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "enterprise",
+    "weixin",
+    "auth",
+    "authentication"
+  ],
+  "author": {
+    "name": "leegarrett",
+    "email": "leegarrett0306@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lee715/passport-weixin-enterprise.git"
+  },
+  "bugs": {
+    "url": "http://github.com/lee715/passport-weixin-enterprise/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib/index.js",
+  "dependencies": {
+    "passport-oauth2": "1.x.x",
+    "querystring": "^0.2.0",
+    "urllib": "^2.9.1"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "homepage": "https://github.com/lee715/passport-weixin-enterprise#readme"
+}
